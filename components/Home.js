@@ -13,7 +13,7 @@ const Home = ({ route }) => {
   const [weatherData, setWeather] = React.useState();
   const fetchData = async () => {
     try {
-      const apiKey = "c414851460a50ed5983cadfe69904624";
+      const apiKey = "";
       const data = await fetch(
         `https://api.openweathermap.org/data/2.5/weather?q=medchal&appid=${apiKey}`
       );
